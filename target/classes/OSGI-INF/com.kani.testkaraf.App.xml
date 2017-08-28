@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="com.kani.testkaraf.App" activate="activate">
+    <service servicefactory="false">
+        <provide interface="com.kani.testkaraf.App"/>
+    </service>
+    <implementation class="com.kani.testkaraf.App"/>
+</scr:component>
